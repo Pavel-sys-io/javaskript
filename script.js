@@ -2,7 +2,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     event.preventDefault();
 
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'http://localhost:8000/', true);
+    xhr.open('POST', 'http://localhost:8080/', true);
     xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
 
     var formData = new FormData(document.getElementById('loginForm'));
