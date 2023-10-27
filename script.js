@@ -17,7 +17,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         if (xhr.status === 200) {
             console.log('Login attempt successfully recorded.');
             // Добавьте здесь код для обработки успешного входа, например, перенаправление на другую страницу
-            window.location.href = 'shttps://example.com';
+            window.location.href = 'https://example.com';
         } else {
             console.error('Error: ' + xhr.status);
             // Добавьте здесь код для обработки ошибки входа, например, отображение сообщения об ошибке
